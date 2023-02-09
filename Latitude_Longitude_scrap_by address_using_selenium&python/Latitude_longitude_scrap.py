@@ -2,7 +2,7 @@ import re
 import pandas as pd
 from selenium import webdriver
 from bs4 import BeautifulSoup
-df = pd.read_csv(r'C:\Users\KARTHIM\Downloads\Address.csv')
+df = pd.read_csv(r'C:\Users\Downloads\Address.csv')
 print(df.columns)
 link2 = df['links2'].tolist()
 Address=df['Address'].tolist()
